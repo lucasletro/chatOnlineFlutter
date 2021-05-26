@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "400765602070",
+    "firebase_url": "https://chatflutter-1be80-default-rtdb.firebaseio.com",
+    "project_id": "chatflutter-1be80",
+    "storage_bucket": "chatflutter-1be80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400765602070:android:72a458e0dbb55abffce837",
+        "android_client_info": {
+          "package_name": "br.com.letro.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400765602070-hav2e7pinvt5fnmprpcfvie1fn230qtq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.letro.chat",
+            "certificate_hash": "779f96bb9062018021a710dcfa98bc35390acd3b"
+          }
+        },
+        {
+          "client_id": "400765602070-q1dc3sjbhk7423gjbao52gs20l8ki4dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2_1_6d5fRjJL5qDAVihDC_DcVATni-Xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400765602070-q1dc3sjbhk7423gjbao52gs20l8ki4dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
