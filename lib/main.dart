@@ -1,13 +1,11 @@
+import 'package:chat/chat_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
   runApp(MyApp());
 
-  Firestore.instance.collection("mensagens").document("ILMLyArWGSKD64w4AAdc").collection("arquivos").document().setData({
-    "arqname": "foto.png"
-  });
-}
+  }
 
 class MyApp extends StatelessWidget {
   @override
@@ -16,8 +14,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        iconTheme: IconThemeData(                 //cor do botão ao digitar.
+          color: Colors.blue
+        )
       ),
-      home: Container(),
+      home: ChatScreen(),
     );
   }
 }
